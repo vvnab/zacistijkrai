@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/zacistijkrai/static/js/main.6391c8b9.chunk.js"
   },
   {
-    "revision": "0d2494b12d08a33ca4c0",
-    "url": "/zacistijkrai/static/js/1.0d2494b1.chunk.js"
+    "revision": "cdaaee406190b7d1059e",
+    "url": "/zacistijkrai/static/js/1.cdaaee40.chunk.js"
   },
   {
     "revision": "6391c8b904dee81831ed",
     "url": "/zacistijkrai/static/css/main.b7d9d954.chunk.css"
   },
   {
-    "revision": "0d2494b12d08a33ca4c0",
+    "revision": "cdaaee406190b7d1059e",
     "url": "/zacistijkrai/static/css/1.ccf1df40.chunk.css"
   },
   {
-    "revision": "ab0f51284b5d4b9b4be6ea7c85e75d4d",
+    "revision": "bdc9250275ef8c091a9f818bcd3161f1",
     "url": "/zacistijkrai/index.html"
   }
 ];
