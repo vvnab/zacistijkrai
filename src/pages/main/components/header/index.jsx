@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import _ from "lodash";
 import styles from "./index.module.scss";
 import { declOfNum } from "../../../../utils";
 import logo from "./logo.png";
