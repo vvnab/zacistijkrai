@@ -1,0 +1,28 @@
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container {
+  position: fixed;
+  left: 10%;
+  width: 80%;
+  top: 2rem;
+}
+
+.message {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  animation: pulse 0.5s ease-out;
+  &.info {
+    background: lightblue;
+  }
+  &.error {
+    background: red;
+    color: white;
+  }
+}

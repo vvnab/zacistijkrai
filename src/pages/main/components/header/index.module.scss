@@ -1,0 +1,22 @@
+@import "../../../../colors.scss";
+
+.main {
+  color: #ca1407;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.text {
+  @extend .main;
+  text-align: right;
+  font-weight: 500;
+}
+
+.count {
+  @extend .main;
+  font-weight: bold;
+}
+
+.img {
+  height: 5rem;
+}

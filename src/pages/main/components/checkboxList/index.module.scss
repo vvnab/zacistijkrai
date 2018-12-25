@@ -1,0 +1,10 @@
+@import "../../../../colors.scss";
+
+.fieldset {
+  border: 1px solid lightgray;
+  margin-top: 1rem;
+  legend {
+    font-size: 1.2rem;
+    color: $fieldset-legend-color;
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../colors.scss";
+
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+} 
+
+.button {
+  text-align: center;
+  margin: 2rem auto 0;
+  background: $red-color;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding: 3rem;
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 150%;
+  color: white;
+}
+
+.section_1 {
+  @extend .section;
+  background: url("./resources/bg1.jpg");
+  background-size: cover;
+}
+
+.section_2 {
+  @extend .section;
+  background: $section-background;
+  .youtube {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 450px;
+    max-width: 800px;
+    height: 48vw;
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.section_3 {
+  @extend .section;
+  background: #1f2324;
+}
+
+.section_4 {
+  @extend .section;
+  background: url("./resources/bg2.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section_5 {
+  @extend .section;
+  background: #dbdbdb;
+  color: #ca1407;
+}
+
+.section_7 {
+  @extend .section;
+  background: #dbdbdb;
+  color: #ca1407;
+}

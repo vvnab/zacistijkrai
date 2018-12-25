@@ -1,0 +1,9 @@
+export const SUGGEST_GET = 'SUGGEST/GET';
+export const SUGGEST_FETCH = 'SUGGEST/FETCH';
+export const SUGGEST_SET = 'SUGGEST/SET';
+export const DOC_COUNT = 'STORE/DOC_COUNT';
+export const VALUE_SET = 'FORM/VALUE_SET';
+export const FORM_CLEAR = 'FORM/FORM_CLEAR';
+export const MESSAGE = 'MAIN/MESSAGE';
+export const MESSAGE_SHOW = 'MAIN/MESSAGE_SHOW';
+export const MESSAGE_HIDE = 'MAIN/MESSAGE_HIDE';
