@@ -16,23 +16,23 @@ self.__precacheManifest = [
     "url": "/zacistijkrai/static/js/runtime~main.d319fae7.js"
   },
   {
-    "revision": "873142b3821d09db7a17",
-    "url": "/zacistijkrai/static/js/main.873142b3.chunk.js"
+    "revision": "948e806d3e70b5375d68",
+    "url": "/zacistijkrai/static/js/main.948e806d.chunk.js"
   },
   {
-    "revision": "0d2494b12d08a33ca4c0",
-    "url": "/zacistijkrai/static/js/1.0d2494b1.chunk.js"
+    "revision": "c3e04b43d7a8581c1300",
+    "url": "/zacistijkrai/static/js/1.c3e04b43.chunk.js"
   },
   {
-    "revision": "873142b3821d09db7a17",
-    "url": "/zacistijkrai/static/css/main.b2a1e047.chunk.css"
+    "revision": "948e806d3e70b5375d68",
+    "url": "/zacistijkrai/static/css/main.9c0f942a.chunk.css"
   },
   {
-    "revision": "0d2494b12d08a33ca4c0",
+    "revision": "c3e04b43d7a8581c1300",
     "url": "/zacistijkrai/static/css/1.ccf1df40.chunk.css"
   },
   {
-    "revision": "f73fe2ba9da01b6d2f152d37a5bd7fbc",
+    "revision": "d7639608a172b0376e4d3b55b29b7050",
     "url": "/zacistijkrai/index.html"
   }
 ];
