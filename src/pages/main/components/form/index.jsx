@@ -51,7 +51,7 @@ class Form extends Component {
   render = () => {
     const { values, suggestions, errors } = this.props;
     return (
-      <form className={styles.form}>
+      <form className={styles.form} id="form">
         {/* <h1 id="form" className={styles.h1}>
           Присоединиться
         </h1> */}
