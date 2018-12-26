@@ -12,6 +12,7 @@
 .checkmark {
     height: 2rem;
     width: 2rem;
+    min-width: 2rem;
     background: lightgray;
     margin-right: 1rem;
     position: relative;
@@ -34,6 +35,7 @@
     height: 0;
     width: 0;
     opacity: 0;
+    flex: 0 0;
     &:checked ~ .checkmark {
       background-color: #2196F3;
       &:after {
