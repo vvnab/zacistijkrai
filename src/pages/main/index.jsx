@@ -1,5 +1,7 @@
 import React from "react";
 import Youtube from "react-youtube";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVk, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import Form from "./components/form";
 import Header from "./components/header";
 import Message from "./components/message";
@@ -66,6 +68,14 @@ export default () => {
         <div className="container-fluid">
           <div className="row">
             <Form />
+            <div className={styles.social}>
+              <a href="https://vk.com/zacistijkrai" className={styles.fa}>
+                <FontAwesomeIcon icon={faVk} />
+              </a>
+              <a href="https://www.facebook.com/story.php?story_fbid=513204562534622&id=100015352480943" className={styles.fa}>
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
