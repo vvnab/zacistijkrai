@@ -4,8 +4,15 @@
   margin: 0 auto 2rem;
   width: 80%;
 }
+
+@media only screen and (max-width: 640px) {
+  .form {
+    width: 100%;
+  }
+}
+
 .h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
 }

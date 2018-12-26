@@ -9,29 +9,29 @@
   font-size: 1.5rem;
   width: 100%;
   padding: 1rem;
-  border: 1px solid lightgray;
+  border: 1px solid $lightgray;
   // border-radius: 0.5rem;
   &:focus {
     outline-width: 0;
     // border: inherit;
   }
   &.errored {
-    border-color: $red-color;
+    border-color: $red;
   }
 }
 
 .label {
   position: absolute;
-  color: gray;
+  color: $gray;
   right: 0.3rem;
   top: 2.4rem;
 }
 
 .suggestionsList {
-  border: 1px solid lightgray;
+  border: 1px solid $lightgray;
   border-top: none;
   // position: absolute;
-  background: rgb(233, 240, 243);
+  // background: rgb(233, 240, 243);
   width: 100%;
   z-index: 100;
 }
@@ -40,6 +40,6 @@
   padding: 0.5rem 1rem;
   cursor: pointer;
   &:hover {
-    background: lightgrey;
+    background: $lightgray;
   }
 }

@@ -3,18 +3,22 @@
 .header {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background: $black;
 } 
 
 .button {
   text-align: center;
   margin: 2rem auto 0;
-  background: $red-color;
+  background: $red;
   text-transform: uppercase;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+  &:hover {
+    background: $red-hover;
+  }
 }
 
 .section {
@@ -28,6 +32,14 @@
   color: white;
 }
 
+@media only screen and (max-width: 640px) {
+  .section {
+    padding: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
 .section_1 {
   @extend .section;
   background: url("./resources/bg1.jpg");
@@ -36,7 +48,7 @@
 
 .section_2 {
   @extend .section;
-  background: $section-background;
+  background: $black;
   .youtube {
     margin: 0 auto;
     width: 100%;
@@ -52,24 +64,43 @@
 
 .section_3 {
   @extend .section;
-  background: #1f2324;
+  background: $black;
 }
 
 .section_4 {
   @extend .section;
   background: url("./resources/bg2.jpg");
-  background-position: 50%;
+  // background-position: 0 0px;
   background-size: cover;
 }
 
 .section_5 {
   @extend .section;
-  background: #dbdbdb;
-  color: #ca1407;
+  background: $lightgreen;
+  color: $green;
+}
+
+.section_6 {
+  @extend .section;
+  color: $black;
+  text-align: left;
+  line-height: 140%;
+  font-size: 1.1rem;
 }
 
 .section_7 {
   @extend .section;
-  background: #dbdbdb;
-  color: #ca1407;
+  background: $lightgray;
+  color: $red;
+}
+
+
+.alert {
+  width: 100%;
+  font-weight: 500;
+  // font-size: 2.2rem;
+}
+
+.textshadow {
+  text-shadow: 0 0 1rem black;
 }
