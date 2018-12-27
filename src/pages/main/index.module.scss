@@ -42,7 +42,7 @@
 
 .section_1 {
   @extend .section;
-  background: url("./resources/bg1.jpg");
+  background: $black url("./resources/bg1.jpg");
   background-size: cover;
 }
 
@@ -69,7 +69,7 @@
 
 .section_4 {
   @extend .section;
-  background: url("./resources/bg2.jpg");
+  background: $darkgreen url("./resources/bg2.jpg");
   // background-position: 0 0px;
   background-size: cover;
 }
