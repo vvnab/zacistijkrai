@@ -24,11 +24,18 @@
   .img {
     height: 5rem;
   }
-  .logo-text {
+  .text {
     margin-left: 1rem;
-    color: #d03a30;
-    font-size: 1.6rem;
+    color: $red;
+    text-align: left;
+    font-size: 1.8rem;
     font-weight: 600;
+    text-transform: uppercase;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .logo .text {
+    font-size: 1.3rem;
+  }
+}
