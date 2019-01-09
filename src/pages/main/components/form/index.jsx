@@ -88,7 +88,17 @@ class Form extends Component {
             })
           }
         />
-
+        <Checkbox
+          title={_.find(formDescribe, { name: "join" }).title}
+          name="join"
+          checked={this.props.values.join || false}
+          error={errors.join}
+          onChange={() =>
+            this.updateValues({
+              target: { name: "join", value: !this.props.values.join }
+            })
+          }
+        />
         <Button onClick={this.submitForm} title="Отправить" />
       </form>
     );

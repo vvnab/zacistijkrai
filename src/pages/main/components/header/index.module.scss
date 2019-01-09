@@ -17,6 +17,18 @@
   font-weight: bold;
 }
 
-.img {
-  height: 5rem;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .img {
+    height: 5rem;
+  }
+  .logo-text {
+    margin-left: 1rem;
+    color: #d03a30;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
 }
+

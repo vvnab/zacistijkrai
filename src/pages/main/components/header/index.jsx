@@ -8,7 +8,12 @@ const Header = ({ count, limit }) => (
   <div className="container-fluid">
     <div className="row middle-xs between-xs">
       <div className="col-xs-6">
-        <img src={logo} className={styles.img} alt="logo" />
+        <div className={styles.logo}>
+          <img src={logo} className={styles.img} alt="logo" />
+          <span className={styles["logo-text"]}>
+            Люди вместе, мусор - раздельно
+          </span>
+        </div>
       </div>
       <div className="col-xs-6">
         <div className={styles.text}>

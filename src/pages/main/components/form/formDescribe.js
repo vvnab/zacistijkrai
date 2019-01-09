@@ -1,18 +1,21 @@
 import validator from "validator";
 import * as actions from "../../actions";
 
-export default [
-  {
+export default [{
     name: "lastName",
     title: "Фамилия",
     type: "text",
-    validator: s => validator.isLength(s, { min: 2 })
+    validator: s => validator.isLength(s, {
+      min: 2
+    })
   },
   {
     name: "firstName",
     title: "Имя",
     type: "text",
-    validator: s => validator.isLength(s, { min: 2 })
+    validator: s => validator.isLength(s, {
+      min: 2
+    })
   },
   {
     name: "middleName",
@@ -24,7 +27,9 @@ export default [
     title: "Адрес (город, улица, дом)",
     type: "text",
     suggest: actions.suggestGet,
-    validator: s => validator.isLength(s, { min: 10 })
+    validator: s => validator.isLength(s, {
+      min: 10
+    })
   },
   {
     name: "phone",
@@ -65,4 +70,10 @@ export default [
     type: "checkbox",
     validator: s => s === true
   },
+  {
+    name: "join",
+    title: "Прошу меня принять в Межрегиональную Общественную Организацию ЗаЧистыйКрай",
+    type: "checkbox",
+    validator: s => s === true
+  }
 ]
