@@ -455,5 +455,487 @@
       "_id": "2019-01-05T21:42:26.748Z",
       "_rev": "1-7d9b320061ad2f21d40c1706d6fa4895"
     }
+  },
+  {
+    "id": "2019-01-07T19:46:02.679Z",
+    "key": "2019-01-07T19:46:02.679Z",
+    "value": {
+      "rev": "1-dabbb64cfe5da986355fd928013c2ef8"
+    },
+    "doc": {
+      "lastName": "Глазова",
+      "firstName": "Елена",
+      "middleName": "Леонидовна",
+      "phone": "+7 (952) 257-72-22",
+      "address": "г Архангельск, пр-кт Ломоносова, д 199",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "email": "glazowaelena8@gmail.com",
+      "social": "https://vk.com/id95455543",
+      "_id": "2019-01-07T19:46:02.679Z",
+      "_rev": "1-dabbb64cfe5da986355fd928013c2ef8"
+    }
+  },
+  {
+    "id": "2019-01-08T12:05:18.651Z",
+    "key": "2019-01-08T12:05:18.651Z",
+    "value": {
+      "rev": "1-266d4368e187a16a116c57e15bfce4b1"
+    },
+    "doc": {
+      "lastName": "Михальченя",
+      "firstName": "Наталья",
+      "middleName": "Валериевна",
+      "address": "Сыктывкар Печорская 8 105",
+      "phone": "+7 (904) 861-82-65",
+      "email": "natalya-mikhalchenya@yandex.ru",
+      "social": "https://vk.com/id93369758",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "_id": "2019-01-08T12:05:18.651Z",
+      "_rev": "1-266d4368e187a16a116c57e15bfce4b1"
+    }
+  },
+  {
+    "id": "2019-01-09T15:47:10.881Z",
+    "key": "2019-01-09T15:47:10.881Z",
+    "value": {
+      "rev": "1-64c7dbe9a254c0fdc616e0eb5b46f13a"
+    },
+    "doc": {
+      "lastName": "Суханов ",
+      "firstName": "Виктор ",
+      "middleName": "Олегович ",
+      "address": "Архангельская обл, г Северодвинск Дзержинского д 10",
+      "phone": "+7 (899) 916-84-26",
+      "email": "sukhanov.vitia@yandex.ru",
+      "helper": [
+        "У меня есть личный транспорт",
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "social": "https://m.vk.com/id88113287",
+      "_id": "2019-01-09T15:47:10.881Z",
+      "_rev": "1-64c7dbe9a254c0fdc616e0eb5b46f13a"
+    }
+  },
+  {
+    "id": "2019-01-09T21:05:40.275Z",
+    "key": "2019-01-09T21:05:40.275Z",
+    "value": {
+      "rev": "1-88d5d918b1be5ea6c5039d3d64340a29"
+    },
+    "doc": {
+      "lastName": "Кедрин",
+      "firstName": "Николай",
+      "middleName": "Анатольевич",
+      "address": "Архангельская обл, Онежский р-н, поселок Глазаниха",
+      "email": "kedrinnikolay@yandex.ru",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "phone": "+7 (960) 014-87-80",
+      "social": "Vk.com/k_n_a",
+      "_id": "2019-01-09T21:05:40.275Z",
+      "_rev": "1-88d5d918b1be5ea6c5039d3d64340a29"
+    }
+  },
+  {
+    "id": "2019-01-10T10:29:07.066Z",
+    "key": "2019-01-10T10:29:07.066Z",
+    "value": {
+      "rev": "1-716451ef188f07896615d7b1e885c012"
+    },
+    "doc": {
+      "lastName": "Киселева",
+      "firstName": "Екатерина",
+      "phone": "+7 (920) 654-20-64",
+      "email": "aleksei_nikolaev@bk.ru",
+      "middleName": "Михайловна",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "address": "Ярославская обл, г Рыбинск, ул 9 Мая, д 21",
+      "social": "https://vk.com/id35505546",
+      "_id": "2019-01-10T10:29:07.066Z",
+      "_rev": "1-716451ef188f07896615d7b1e885c012"
+    }
+  },
+  {
+    "id": "2019-01-10T20:26:01.892Z",
+    "key": "2019-01-10T20:26:01.892Z",
+    "value": {
+      "rev": "1-12e1bf83630afd1f0abf7f0900b4eaa9"
+    },
+    "doc": {
+      "social": "https://vk.com/id31573538",
+      "lastName": "Скрипова",
+      "firstName": "Татьяна",
+      "middleName": "Евгеньевна",
+      "address": "г Сыктывкар",
+      "phone": "+7 (950) 566-96-03",
+      "email": "tatevg111@mail.ru",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-10T20:26:01.892Z",
+      "_rev": "1-12e1bf83630afd1f0abf7f0900b4eaa9"
+    }
+  },
+  {
+    "id": "2019-01-12T12:27:48.381Z",
+    "key": "2019-01-12T12:27:48.381Z",
+    "value": {
+      "rev": "1-81451ad827a6f755b42a36d4044e832c"
+    },
+    "doc": {
+      "lastName": "Утробина ",
+      "firstName": "Мария",
+      "middleName": "Викторовна ",
+      "address": "респ Коми, г Ухта",
+      "phone": "+7 (912) 504-11-27",
+      "email": "mariy121@mail.ru",
+      "social": "https://vk.com/id46302359",
+      "privacy": true,
+      "join": true,
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "_id": "2019-01-12T12:27:48.381Z",
+      "_rev": "1-81451ad827a6f755b42a36d4044e832c"
+    }
+  },
+  {
+    "id": "2019-01-13T21:23:17.427Z",
+    "key": "2019-01-13T21:23:17.427Z",
+    "value": {
+      "rev": "1-e9867a97a35d30acec097b3c59bdb637"
+    },
+    "doc": {
+      "lastName": "Ткаченко",
+      "firstName": "Майя",
+      "middleName": "Николаевна",
+      "address": "Архангельская обл, г Коряжма, ул Имени М.Х.Сафьяна, д 17",
+      "phone": "+7 (952) 304-55-31",
+      "email": "capitan-two@mail.ru",
+      "social": "https://vk.com/id135904410",
+      "helper": [
+        "Я могу помочь с обзвоном волонтеров",
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-13T21:23:17.427Z",
+      "_rev": "1-e9867a97a35d30acec097b3c59bdb637"
+    }
+  },
+  {
+    "id": "2019-01-14T10:05:39.069Z",
+    "key": "2019-01-14T10:05:39.069Z",
+    "value": {
+      "rev": "1-267e2ff9b4f8157f003d03d6034633ce"
+    },
+    "doc": {
+      "lastName": "Пыстина",
+      "firstName": "Татьяна",
+      "middleName": "Николаевна",
+      "address": "г. Сыктывкар, ул. Коммунистическая, д.48",
+      "phone": "+7 (908) 716-88-14",
+      "email": "t.pystina@ib.komisc.ru",
+      "social": "https://vk.com/id20388271",
+      "helper": [
+        "Я эколог"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-14T10:05:39.069Z",
+      "_rev": "1-267e2ff9b4f8157f003d03d6034633ce"
+    }
+  },
+  {
+    "id": "2019-01-14T10:07:08.484Z",
+    "key": "2019-01-14T10:07:08.484Z",
+    "value": {
+      "rev": "1-d863c28ed32ac82adc47640a58580d2d"
+    },
+    "doc": {
+      "lastName": "Пыстина",
+      "firstName": "Татьяна",
+      "middleName": "Николаевна",
+      "address": "г Сыктывкар, ул Коммунистическая, д 48",
+      "phone": "+7 (908) 716-88-14",
+      "email": "t.pystina@ib.komisc.ru",
+      "social": "https://vk.com/id20388271",
+      "helper": [
+        "Я эколог"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-14T10:07:08.484Z",
+      "_rev": "1-d863c28ed32ac82adc47640a58580d2d"
+    }
+  },
+  {
+    "id": "2019-01-14T11:08:23.795Z",
+    "key": "2019-01-14T11:08:23.795Z",
+    "value": {
+      "rev": "1-a45eb065d27f7671383406c38f4b0795"
+    },
+    "doc": {
+      "lastName": "Тырин",
+      "firstName": "Олег",
+      "middleName": "Михайлович",
+      "address": "г Сыктывкар, ул Мира",
+      "phone": "+7 (904) 270-08-64",
+      "email": "oleg.tyrin.80@mail.ru",
+      "helper": [
+        "Готов помочь с разовыми поручениями",
+        "У меня есть личный транспорт"
+      ],
+      "privacy": true,
+      "join": true,
+      "social": "http://vkontakte.ru/id11902757",
+      "_id": "2019-01-14T11:08:23.795Z",
+      "_rev": "1-a45eb065d27f7671383406c38f4b0795"
+    }
+  },
+  {
+    "id": "2019-01-14T18:36:28.234Z",
+    "key": "2019-01-14T18:36:28.234Z",
+    "value": {
+      "rev": "1-30cef381ff2e81d4a508d7f8acd4fbca"
+    },
+    "doc": {
+      "lastName": "Скрипов",
+      "firstName": "Григорий",
+      "middleName": "Николаевич",
+      "address": "г Сыктывкар, ул Лесозаводская, д 12, кв 11",
+      "phone": "+7 (904) 224-79-94",
+      "email": "grisha-skripov@mail.ru",
+      "join": true,
+      "privacy": true,
+      "social": "vk.com/id29231246",
+      "_id": "2019-01-14T18:36:28.234Z",
+      "_rev": "1-30cef381ff2e81d4a508d7f8acd4fbca"
+    }
+  },
+  {
+    "id": "2019-01-14T19:34:45.425Z",
+    "key": "2019-01-14T19:34:45.425Z",
+    "value": {
+      "rev": "1-832f9e48d9c535a73fe26e8a2c8629b4"
+    },
+    "doc": {
+      "helper": [
+        "Я могу помочь с обзвоном волонтеров"
+      ],
+      "privacy": true,
+      "join": true,
+      "lastName": "Калашникова",
+      "firstName": "Анастасия",
+      "middleName": "Дмитриевна",
+      "address": "Мурманская обл, г Кировск, пр-кт Ленина, д 7В",
+      "phone": "+7 (963) 363-26-96",
+      "email": "MarskayDeva@yandex.ru",
+      "social": "vk.com/nastyamoroshka",
+      "_id": "2019-01-14T19:34:45.425Z",
+      "_rev": "1-832f9e48d9c535a73fe26e8a2c8629b4"
+    }
+  },
+  {
+    "id": "2019-01-15T10:56:30.001Z",
+    "key": "2019-01-15T10:56:30.001Z",
+    "value": {
+      "rev": "1-7f1f9f5adb6e77fd20755b6819b86afd"
+    },
+    "doc": {
+      "social": "https://vk.com/id402767346",
+      "lastName": "Белькова ",
+      "firstName": "Лидия ",
+      "middleName": "Александровна",
+      "address": "д.Завелье, Вельский р-н, Архангельская обл.",
+      "phone": "+7 (911) 569-31-74",
+      "email": "lida.belkova.82@mail.ru",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "join": true,
+      "privacy": true,
+      "_id": "2019-01-15T10:56:30.001Z",
+      "_rev": "1-7f1f9f5adb6e77fd20755b6819b86afd"
+    }
+  },
+  {
+    "id": "2019-01-15T11:23:53.241Z",
+    "key": "2019-01-15T11:23:53.241Z",
+    "value": {
+      "rev": "1-f5f6dfd5dec787f3cbfb3b53be5c1d54"
+    },
+    "doc": {
+      "lastName": "Белькова ",
+      "firstName": "Лидия",
+      "middleName": "Александровна",
+      "address": "Архангельская обл, Вельский р-н, деревня Завелье, д.8",
+      "phone": "+7 (911) 569-31-74",
+      "email": "lida.belkova.82@mail.ru",
+      "social": "https://vk.com/id402767346",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-15T11:23:53.241Z",
+      "_rev": "1-f5f6dfd5dec787f3cbfb3b53be5c1d54"
+    }
+  },
+  {
+    "id": "2019-01-15T12:00:09.973Z",
+    "key": "2019-01-15T12:00:09.973Z",
+    "value": {
+      "rev": "1-d428fd66af88ecffaae40ec4ba9f256e"
+    },
+    "doc": {
+      "lastName": "Попова",
+      "firstName": "Наталья",
+      "middleName": "Михайловна",
+      "address": "г Сыктывкар, Сысольское шоссе",
+      "email": "nata558000@gmail.com",
+      "helper": [
+        "У меня есть личный транспорт"
+      ],
+      "privacy": true,
+      "phone": "+7 (890) 000-00-00",
+      "social": "https://vk.com/natalie905",
+      "join": true,
+      "_id": "2019-01-15T12:00:09.973Z",
+      "_rev": "1-d428fd66af88ecffaae40ec4ba9f256e"
+    }
+  },
+  {
+    "id": "2019-01-15T13:50:49.409Z",
+    "key": "2019-01-15T13:50:49.409Z",
+    "value": {
+      "rev": "1-6e6e719a00d694541f0a2ff5697d3248"
+    },
+    "doc": {
+      "lastName": "коровина ",
+      "firstName": "елена",
+      "address": "вычегодский",
+      "email": "hameleon210666@yandex.ru",
+      "social": "https://vk.com/id377139607",
+      "helper": [
+        "У меня есть личный транспорт",
+        "Готов помочь с разовыми поручениями"
+      ],
+      "phone": "+7 (891) 158-97-75",
+      "privacy": true,
+      "join": true,
+      "middleName": "алексеевна",
+      "_id": "2019-01-15T13:50:49.409Z",
+      "_rev": "1-6e6e719a00d694541f0a2ff5697d3248"
+    }
+  },
+  {
+    "id": "2019-01-15T14:11:41.325Z",
+    "key": "2019-01-15T14:11:41.325Z",
+    "value": {
+      "rev": "1-31fbf7353d623da10de57e6e4b5b3345"
+    },
+    "doc": {
+      "lastName": "Волобуева",
+      "firstName": "Наталья",
+      "middleName": "Степановна",
+      "address": "Сыктывкар, Катаева 15, к 100",
+      "phone": "+7 (904) 222-64-00",
+      "email": "volnataly55@gmail.com",
+      "social": "https://vk.com/nataly.volobueva2012",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-15T14:11:41.325Z",
+      "_rev": "1-31fbf7353d623da10de57e6e4b5b3345"
+    }
+  },
+  {
+    "id": "2019-01-15T14:12:06.622Z",
+    "key": "2019-01-15T14:12:06.622Z",
+    "value": {
+      "rev": "1-f2943187e8ef111d550b50a18607a5cf"
+    },
+    "doc": {
+      "lastName": "Чисталева",
+      "firstName": "Татьяна",
+      "address": "Респ Коми, Усть-Куломский р-н, деревня Скородум, д 223",
+      "phone": "+7 (912) 567-35-06",
+      "email": "tchistaleva@yandex.ru",
+      "privacy": true,
+      "join": true,
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "social": "https://vk.com/id102988471",
+      "middleName": "Николаевна",
+      "_id": "2019-01-15T14:12:06.622Z",
+      "_rev": "1-f2943187e8ef111d550b50a18607a5cf"
+    }
+  },
+  {
+    "id": "2019-01-15T17:41:12.530Z",
+    "key": "2019-01-15T17:41:12.530Z",
+    "value": {
+      "rev": "1-6b460feb94e7eb5749da5db51f727bf9"
+    },
+    "doc": {
+      "lastName": "Башарин ",
+      "firstName": "Александр ",
+      "middleName": "Евгеньевич ",
+      "address": "Архангельская обл, Котласский р-н, рп Приводино, ул Молодежная, д 4",
+      "phone": "+7 (921) 818-31-99",
+      "email": "sanyabasharin@yandex.ru",
+      "social": "https://m.vk.com/id88400674",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-15T17:41:12.530Z",
+      "_rev": "1-6b460feb94e7eb5749da5db51f727bf9"
+    }
+  },
+  {
+    "id": "2019-01-15T23:32:35.548Z",
+    "key": "2019-01-15T23:32:35.548Z",
+    "value": {
+      "rev": "1-bd9ad0985216209f18938e64b44c22e4"
+    },
+    "doc": {
+      "lastName": "Ломаченко ",
+      "firstName": "Анастасия",
+      "middleName": "Александровна",
+      "address": "г Санкт-Петербург, Комендантский пр",
+      "phone": "+7 (950) 047-57-72",
+      "email": "mskontesa@yandex.ru",
+      "social": "https://vk.com/kontesa",
+      "helper": [
+        "Готов помочь с разовыми поручениями"
+      ],
+      "privacy": true,
+      "join": true,
+      "_id": "2019-01-15T23:32:35.548Z",
+      "_rev": "1-bd9ad0985216209f18938e64b44c22e4"
+    }
   }
 ]
