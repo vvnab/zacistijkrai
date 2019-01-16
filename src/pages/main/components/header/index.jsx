@@ -9,7 +9,7 @@ const Header = ({ count, limit }) => (
     <div className="row middle-xs between-xs">
       <div className="col-xs-6">
         <div className={styles.logo}>
-          <img src={logo} className={styles.img} alt="logo" />
+          {/* <img src={logo} className={styles.img} alt="logo" /> */}
           <span className={styles.text}>
             Люди вместе, мусор - раздельно
           </span>
