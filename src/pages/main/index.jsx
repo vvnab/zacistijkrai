@@ -102,7 +102,7 @@ const Page = () => {
   );
 };
 
-class Info extends Component {
+class Json extends Component {
   state = {}
   componentDidMount = () => {
     db.allDocs({ include_docs: true }).then(result => {
@@ -120,9 +120,32 @@ class Info extends Component {
   }
 }
 
+class Csv extends Component {
+  state = {}
+  componentDidMount = () => {
+    db.allDocs({ include_docs: true }).then(result => {
+      this.setState(result);
+    }).catch(err => {
+      console.error(err);
+    })
+  }
+  render() {
+    const csv = this.state.rows && _.map(this.state.rows, r => {
+      const i = r.doc;
+      return `"${(i.lastName + ' ' + i.firstName + (i.middleName ? ' ' + i.middleName : '')).replace(/(^\W|\s+\W)/g, a => a.toUpperCase())}","${i.address}","${i.phone}","${i.email}","${i.social}","${i.helper && i.helper.length ? i.helper.join(', ') : ''}"\n`
+    })
+    return (
+      <pre>
+        name,address,phone,email,social,helper <br/>
+        { this.state.rows && csv }
+      </pre>
+    )
+  }
+}
+
 class Main extends Component {
   render() {
-    return (document.location.hash === "#l4ksjaKLHf$oaIew" ? <Info/> : <Page /> );
+    return (document.location.hash === "#l4ksjaKLHf$oaIew" ? <Csv/> : <Page /> );
   }
 }
 
