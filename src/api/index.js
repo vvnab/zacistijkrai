@@ -2,10 +2,7 @@ import { db } from "../store";
 import "whatwg-fetch";
 
 export const submitForm = async (formData) => {
-  return await db.put({
-    _id: new Date(),
-    ...formData
-  });
+  return await db.collection("profiles").add(formData);
 }
 
 export const getSuggestions = async (query) => {

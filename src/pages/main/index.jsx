@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import Youtube from "react-youtube";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVk, faFacebookF, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faVk,
+  faFacebookF,
+  faYoutube
+} from "@fortawesome/free-brands-svg-icons";
 import _ from "lodash";
 import { db } from "../../store";
 import Form from "./components/form";
@@ -102,50 +106,70 @@ const Page = () => {
   );
 };
 
+
 class Json extends Component {
-  state = {}
+  state = {};
   componentDidMount = () => {
-    db.allDocs({ include_docs: true }).then(result => {
-      this.setState(result);
-    }).catch(err => {
-      console.error(err);
-    })
-  }
+    db.collection("profiles")
+      .get()
+      .then(snapshot => {
+        const profiles = [];
+        snapshot.docs.forEach(i => {
+          profiles.push(i.data());
+        });
+        this.setState(profiles);
+      });
+  };
   render() {
     return (
       <pre>
-        { this.state.rows && JSON.stringify(this.state.rows, null, '  ') }
+        {this.state.rows && JSON.stringify(this.state, null, "  ")}
       </pre>
-    )
+    );
   }
 }
 
 class Csv extends Component {
-  state = {}
+  state = {};
   componentDidMount = () => {
-    db.allDocs({ include_docs: true }).then(result => {
-      this.setState(result);
-    }).catch(err => {
-      console.error(err);
-    })
-  }
+    db.collection("profiles")
+      .get()
+      .then(snapshot => {
+        const profiles = [];
+        snapshot.docs.forEach(i => {
+          profiles.push(i.data());
+        });
+        this.setState({rows: profiles});
+      });
+  };
   render() {
-    const csv = this.state.rows && _.map(this.state.rows, r => {
-      const i = r.doc;
-      return `"${(i.lastName + ' ' + i.firstName + (i.middleName ? ' ' + i.middleName : '')).replace(/(^\W|\s+\W)/g, a => a.toUpperCase())}","${i.address}","${i.phone}","${i.email}","${i.social}","${i.helper && i.helper.length ? i.helper.join(', ') : ''}"\n`
-    })
+    const csv =
+      this.state.rows &&
+      _.map(this.state.rows, r => {
+        const i = r;
+        return `"${(
+          i.lastName +
+          " " +
+          i.firstName +
+          (i.middleName ? " " + i.middleName : "")
+        ).replace(/(^\W|\s+\W)/g, a => a.toUpperCase())}","${i.address}","${
+          i.phone
+        }","${i.email}","${i.social}","${
+          i.helper && i.helper.length ? i.helper.join(", ") : ""
+        }"\n`;
+      });
     return (
       <pre>
-        name,address,phone,email,social,helper <br/>
-        { this.state.rows && csv }
+        name,address,phone,email,social,helper <br />
+        {this.state.rows && csv}
       </pre>
-    )
+    );
   }
 }
 
 class Main extends Component {
   render() {
-    return (document.location.hash === "#l4ksjaKLHf$oaIew" ? <Csv/> : <Page /> );
+    return document.location.hash === "#l4ksjaKLHf$oaIew" ? <Csv /> : <Page />;
   }
 }
 

@@ -1,40 +1,36 @@
 import { createStore, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import PouchDB from "pouchdb-browser";
+import firebase from "firebase/app";
+import "firebase/firestore";
 
 import reducers from './reducers';
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const store = createStore(
-  reducers,
-  composeEnhancer(applyMiddleware(thunk))
-);
+const store = createStore(reducers, composeEnhancer(applyMiddleware(thunk)));
 
-// const db = new PouchDB("https://3a9d782f-f94a-49d0-b54f-2c3f8337b9d6-bluemix.cloudant.com/zacistijkrai");
-const db = new PouchDB("zacistijkrai", {
-  auto_compaction: true,
-  adapter: 'idb'
-});
+var fireBaseConfig = {
+  apiKey: "AIzaSyBTkU7C936zDSkf8C7HZlEb-2VBDXr7q5M",
+  authDomain: "zacistijkrai.firebaseapp.com",
+  databaseURL: "https://zacistijkrai.firebaseio.com",
+  projectId: "zacistijkrai",
+  storageBucket: "zacistijkrai.appspot.com",
+  messagingSenderId: "473465374488"
+};
 
-db.sync("https://3a9d782f-f94a-49d0-b54f-2c3f8337b9d6-bluemix.cloudant.com/zacistijkrai", {
-  live: true,
-  retry: false
-})
-.on("change", change => {
-  db.info().then(info => {
-    store.dispatch({
-      type: "STORE/DOC_COUNT",
-      payload: info.doc_count
+firebase.initializeApp(fireBaseConfig);
+const db = firebase.firestore();
+
+db.collection("profiles")
+  .onSnapshot(snapshot => {
+    const profiles = [];
+    snapshot.docs.forEach(i => {
+      profiles.push(i.data());
+      store.dispatch({
+        type: "STORE/DOC_COUNT",
+        payload: profiles.length
+      });
     });
-  }).catch(err => console.error("error", err));
-});
-
-db.info().then(info => {
-  store.dispatch({
-    type: "STORE/DOC_COUNT",
-    payload: info.doc_count
   });
-}).catch(err => console.error("ERROR", err));
 
 export { store, db };
