@@ -2,7 +2,6 @@ import { createStore, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import firebase from "firebase/app";
 import "firebase/firestore";
-
 import reducers from './reducers';
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
@@ -26,11 +25,11 @@ db.collection("profiles")
     const profiles = [];
     snapshot.docs.forEach(i => {
       profiles.push(i.data());
-      store.dispatch({
-        type: "STORE/DOC_COUNT",
-        payload: profiles.length
-      });
     });
-  });
+    store.dispatch({
+      type: "STORE/DOC_COUNT",
+      payload: profiles.length
+    });
+});
 
 export { store, db };

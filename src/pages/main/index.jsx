@@ -106,7 +106,6 @@ const Page = () => {
   );
 };
 
-
 class Json extends Component {
   state = {};
   componentDidMount = () => {
@@ -122,9 +121,7 @@ class Json extends Component {
   };
   render() {
     return (
-      <pre>
-        {this.state.rows && JSON.stringify(this.state, null, "  ")}
-      </pre>
+      <pre>{this.state.rows && JSON.stringify(this.state, null, "  ")}</pre>
     );
   }
 }
@@ -139,7 +136,7 @@ class Csv extends Component {
         snapshot.docs.forEach(i => {
           profiles.push(i.data());
         });
-        this.setState({rows: profiles});
+        this.setState({ rows: profiles });
       });
   };
   render() {
