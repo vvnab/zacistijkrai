@@ -22,13 +22,9 @@ const db = firebase.firestore();
 
 db.collection("profiles")
   .onSnapshot(snapshot => {
-    const profiles = [];
-    snapshot.docs.forEach(i => {
-      profiles.push(i.data());
-    });
     store.dispatch({
       type: "STORE/DOC_COUNT",
-      payload: profiles.length
+      payload: snapshot.size
     });
 });
 
