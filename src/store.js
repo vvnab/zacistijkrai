@@ -19,6 +19,7 @@ var fireBaseConfig = {
 
 firebase.initializeApp(fireBaseConfig);
 const db = firebase.firestore();
+db.enablePersistence();
 
 db.collection("profiles")
   .onSnapshot(snapshot => {
